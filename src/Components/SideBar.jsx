@@ -1,6 +1,6 @@
 import * as React from 'react';
 ;
-import { Box, Icon } from '@mui/material';
+import { Box} from '@mui/material';
 import { Github, Insta, Linkedin } from '../assets/Images';
 import { motion } from 'framer-motion'
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { BgImage } from '../../assets/Images';
+import BgImage from '../../assets/Images/background.svg'
 import NavBar from '../NavBar';
 import Hero from '../Hero';
 import { motion } from 'framer-motion'
