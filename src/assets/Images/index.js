@@ -1,10 +1,10 @@
-import Image1 from '../Images/Background.svg'
-import Image2 from '../Images/MyImage.png'
-import Image3 from '../Images/Github.svg'
-import Image4 from '../Images/Instgram.svg'
-import Image5 from '../Images/Linkedin.svg'
-import Image6 from '../Images/Circle1.svg'
-import Image7 from '../Images/Circle2.svg'
+import Image1 from '../Images/background.svg'
+import Image2 from '../Images/myImage.png'
+import Image3 from '../Images/github.svg'
+import Image4 from '../Images/instgram.svg'
+import Image5 from '../Images/linkedin.svg'
+import Image6 from '../Images/circle1.svg'
+import Image7 from '../Images/circle2.svg'
 
 const BgImage = Image1
 const MyImage = Image2

@@ -1,8 +1,7 @@
 import * as React from 'react';
-import { styled, useTheme } from '@mui/material/styles';
-import Toolbar from '@mui/material/Toolbar';
+;
 import { Box, Icon } from '@mui/material';
-import { Github, Insta, Linkedin } from '../assets/Images';
+import { Github, Insta, Linkedin } from '../assets/Images/index';
 import { motion } from 'framer-motion'
 
 
