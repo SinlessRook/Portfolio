@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Box, Card, CardContent, Typography, IconButton, CardMedia } from '@mui/material';
 import { ArrowBack, ArrowForward } from '@mui/icons-material';
-import { AboutText } from '../assets/Constants';
+import { AboutText } from '../assets/constants';
 import { motion } from 'framer-motion'
 const HorizontalCarousel = () => {
   const items = AboutText

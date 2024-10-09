@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import { HeroText } from '../assets/Constants';
+import { HeroText } from '../assets/constants';
 import { Box, Typography } from "@mui/material";
 import { motion } from 'framer-motion'
 

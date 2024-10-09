@@ -1,6 +1,5 @@
 import React from 'react'
-import HorizontalCarousel from '../Components/Card'
-import BgImage from '../assets/Images/background.svg' 
+import BgImage from '../assets/images/background.svg' 
 import { Box, Typography, Divider } from '@mui/material'
 import SideBar from '../Components/SideBar'
 import CardGrid from '../Components/GridCard'
