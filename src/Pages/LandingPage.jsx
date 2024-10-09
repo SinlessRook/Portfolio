@@ -1,6 +1,6 @@
 import React from 'react';
 import BgImage from '../assets/images/bg.png'; 
-import Hero from '../components/Hero';
+import Hero from '../components/Hero.jsx';
 import { motion } from 'framer-motion'
 
 const LandingPage = () => {
