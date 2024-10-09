@@ -1,8 +1,8 @@
 import React from 'react'
 import BgImage from '../assets/images/bg.png'; 
 import { Box, Typography, Divider } from '@mui/material'
-import SideBar from '../Components/SideBar'
-import CardGrid from '../Components/GridCard'
+import SideBar from '../components/SideBar'
+import CardGrid from '../components/GridCard'
 import { motion } from 'framer-motion'
 const ProjectPage = () => {
     return (

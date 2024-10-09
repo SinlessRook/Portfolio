@@ -1,12 +1,12 @@
 
 import './App.css'
-import AboutPage from './/Pages/AboutPage'
-import LandingPage from './Pages/LandingPage'
-import ProjectPage from './Pages/ProjectPage'
+import AboutPage from './pages/AboutPage'
+import LandingPage from './pages/LandingPage'
+import ProjectPage from './pages/ProjectPage'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Footer from './Components/Footer';
-import NavBar from './Components/NavBar';
+import Footer from './components/Footer';
+import NavBar from './components/NavBar';
 
 function App() {
 

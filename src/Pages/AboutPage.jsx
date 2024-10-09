@@ -1,8 +1,8 @@
 import { Box, Typography } from '@mui/material'
 import React from 'react'
-import HorizontalCarousel from '../Components/Card'
+import HorizontalCarousel from '../components/Card'
 import BgImage from '../assets/images/bg.png'; 
-import SideBar from '../Components/SideBar'
+import SideBar from '../components/SideBar'
 import { motion } from 'framer-motion'
 
 
