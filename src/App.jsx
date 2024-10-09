@@ -15,7 +15,6 @@ function App() {
         <NavBar />
         <LandingPage />
         <AboutPage />
-        <ProjectPage />
         <Footer />
       </div>
     </>
