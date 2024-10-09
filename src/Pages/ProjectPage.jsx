@@ -1,5 +1,5 @@
 import React from 'react'
-import BgImage from '../assets/images/background.svg' 
+import BgImage from '../assets/images/background.png'; 
 import { Box, Typography, Divider } from '@mui/material'
 import SideBar from '../Components/SideBar'
 import CardGrid from '../Components/GridCard'

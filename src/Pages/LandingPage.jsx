@@ -1,5 +1,5 @@
 import React from 'react';
-import BgImage from '../assets/images/background.svg' 
+import BgImage from '../assets/images/background.png'; 
 import Hero from '../Components/Hero';
 import { motion } from 'framer-motion'
 
