@@ -1,6 +1,7 @@
 import { Box, Typography } from '@mui/material'
 import React from 'react'
-import { MyImage } from '../assets/Images';
+
+import MyImage from '../assets/Images/myimage.png';
 import SideBar from './SideBar';
 import PauseOnHover from './SliderSimple';
 import { motion } from 'framer-motion';

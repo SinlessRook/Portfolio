@@ -1,7 +1,10 @@
 import * as React from 'react';
 ;
 import { Box} from '@mui/material';
-import { Github, Insta, Linkedin } from '../assets/Images';
+
+import Github from '../assets/Images/github.svg'
+import Insta from '../assets/Images/instgram.svg'
+import Linkedin from '../assets/Images/linkedIn.svg'
 import { motion } from 'framer-motion'
 
 
