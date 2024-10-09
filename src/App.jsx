@@ -1,8 +1,8 @@
 
 import './App.css'
-import AboutPage from './Components/Pages/AboutPage'
-import LandingPage from './Components/Pages/LandingPage'
-import ProjectPage from './Components/Pages/ProjectPage'
+import AboutPage from './/Pages/AboutPage'
+import LandingPage from './Pages/LandingPage'
+import ProjectPage from './Pages/ProjectPage'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Footer from './Components/Footer';
