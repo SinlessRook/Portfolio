@@ -1,5 +1,5 @@
 import './App.css'
-import AboutPage from './components/about.jsx'
+import AboutPage from './components/About.jsx'
 import LandingPage from './components/landing.jsx'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
