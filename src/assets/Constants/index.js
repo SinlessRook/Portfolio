@@ -46,39 +46,33 @@ const AboutText = [
 const ProjectText = [
    {
       id: 1,
-      title: "Personal Portfolio",
-      desc: "This is a personal portfolio website built using React.js",
-      url: "https://github.com/AdithyanAS/Portfolio",
+      title: "Chess Insights",
+      desc: "Get Opening Insights from chess.com Account",
+      url: "https://github.com/SinlessRook/ChessInsights",
    },
    {
       id: 2,
-      title: "Personal Portfolio",
-      desc: "This is a personal portfolio website built using React.js",
-      url: "https://github.com/AdithyanAS/Portfolio",
+      title: "Confidential Chat",
+      desc: "Encrypt and Decrypt text,built using Flutter",
+      url: "https://github.com/SinlessRook/ConfidentialChat",
    },
    {
       id: 3,
-      title: "Personal Portfolio",
-      desc: "This is a personal portfolio website built using React.js",
-      url: "https://github.com/AdithyanAS/Portfolio",
+      title: "Money Manager",
+      desc: "Personal Money Manager built using Flutter",
+      url: "https://github.com/SinlessRook/MoneyManager1.0",
    },
    {
       id: 4,
-      title: "Personal Portfolio",
-      desc: "This is a personal portfolio website built using React.js",
-      url: "https://github.com/AdithyanAS/Portfolio",
+      title: "LabEzy",
+      desc: "This is website built for academic purposes",
+      url: "https://github.com/SinlessRook/LabEzy",
    },
    {
       id: 5,
-      title: "Personal Portfolio",
-      desc: "This is a personal portfolio website built using React.js",
-      url: "https://github.com/AdithyanAS/Portfolio",
+      title: "Climate Story",
+      desc: "This is a website created as part of the NASA Space Apps Hackathon.",
+      url: "https://github.com/SinlessRook/Nasa-Project",
    },
-   {
-      id: 6,
-      title: "Personal Portfolio",
-      desc: "This is a personal portfolio website built using React.js",
-      url: "https://github.com/AdithyanAS/Portfolio",
-   }
 ]
 export { HeroText, AboutText, ProjectText }
