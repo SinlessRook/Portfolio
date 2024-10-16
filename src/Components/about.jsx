@@ -37,7 +37,7 @@ const AboutPage = () => {
                     marginY: '0px',
                     width: '100%',
                     padding: '50px',
-                    marginLeft: '100px',
+                    marginLeft: {md:'100px',xs:'50px'},
                     color: '#FFFFFF',
                     fontWeight: 'bold',
                     textDecoration: 'underline',
