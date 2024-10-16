@@ -22,7 +22,7 @@ const Hero = () => {
                         alignItems: 'center',
                         marginTop: '50px',
                         marginBottom: '0px',
-                        marginLeft: '60px',
+                        marginLeft: '20px',
                         textAlign: 'center',
                         borderRadius: '50%',
                         width: '300px',
