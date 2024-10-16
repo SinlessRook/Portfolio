@@ -16,15 +16,15 @@ const AboutPage = () => {
     };
     return (
         <>
-            <main
-                style={{
-                    height: '100vh',
+            <Box
+            sx={{
+                height: '100vh',
                     backgroundImage: `url(${BgImage})`,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     display: 'flex',
                     flexDirection: 'column',
-                }}
+            }}
             >
                 <motion.div
                 initial={{opacity:0,scale:0.2}}
@@ -40,16 +40,21 @@ const AboutPage = () => {
                     marginLeft: '100px',
                     color: '#FFFFFF',
                     fontWeight: 'bold',
-                    textDecoration: 'underline'
+                    textDecoration: 'underline',
+                    fontSize: {
+                        xs: '2.5rem',
+                        md: '3rem',
+                    }
+
                 }}>About Me</Typography>
                 </motion.div>
 
-                <Box sx={{ padding: '1rem', display: 'flex', justifyContent: 'center', gap: 2 }}>
+                <Box sx={{ padding: {md:'1rem',xs:'0rem'}, display: 'flex', justifyContent: 'center', gap: {md:2,xs:0} }}>
                     <SideBar />
                     <HorizontalCarousel/>
                 </Box>
 
-            </main>
+            </Box>
         </>
     )
 }

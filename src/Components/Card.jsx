@@ -37,7 +37,7 @@ const HorizontalCarousel = () => {
         width: '100%',
         position: 'relative',
         overflow: 'hidden',
-        marginX: '20%',
+        marginX: {md:'20%',xs:"10px"}
       }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
@@ -60,15 +60,15 @@ const HorizontalCarousel = () => {
               key={item.id}
               sx={{
                 minWidth: '100%',
-                minHeight: '500px',
-                height: 'auto',
+                minHeight: {md:'500px',xs:'300px'},
+                height: {md:'auto',xs:'500px'},
                 background: item.gradient,
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
               }}
             >
-              <CardMedia sx={{ width: '100%', height: '280px', objectFit: 'cover', margin: 0 }}>
+              <CardMedia sx={{ width: '100%', height: {md:'280px',xs:'200px'}, objectFit: 'cover', margin: 0 }}>
                 <motion.img
                   initial={{ opacity: 0, scale: 0.5, rotateZ: 90 }}
                   whileInView={{ opacity: 1, scale: 1, rotateZ: 0 }}

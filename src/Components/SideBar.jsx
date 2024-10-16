@@ -15,7 +15,10 @@ export default function SideBar() {
 
         <Box sx={{
             backgroundColor: 'rgba(34, 151, 153, 0.1)'
-            , position: 'absolute', left: 0, minHeight: '500px', display: 'flex', flexDirection: 'column',
+            , position: 'absolute', left: 0, minHeight: '500px',
+             display: {md:'flex', xs:'none'}, 
+             flexDirection: 'column',
+             
             justifyContent: 'center',
             alignItems: 'center',
             gap: 4,

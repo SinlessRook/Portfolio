@@ -38,28 +38,30 @@ function PauseOnHover() {
                 justifyContent: 'center',
                 alignContent: 'center',
                 flexDirection: 'column',
-                marginY: '50px',
+                marginY: {md:'50px',xs:'0px'},
                 marginLeft: '50px',
-                paddingLeft: '100px',
+                paddingLeft: {md:'100px',xs:'0px'},
                 width: 'auto',
                 height: '500px',
 
               }}>
               <Typography
                 sx={{
-                  fontSize: '3.5rem', color: '#FFFFFF',
+                  fontSize: {md:'3.5rem',xs:'2.0rem'}, color: '#FFFFFF',
                   justifyContent: 'center', fontWeight: 'medium', textAlign: 'start', width: 'auto'
                 }}
               >{item.lineOne}</Typography>
               <Typography
                 sx={{
-                  fontSize: '3.5rem', color: 'yellowgreen',
+                  fontSize: {md:'3.5rem',xs:'2.0rem'}
+                  , color: 'yellowgreen',
                   justifyContent: 'center', fontWeight: 'bold', textAlign: 'start', width: 'auto'
                 }}
               >{item.lineTwo}</Typography>
               <Typography
                 sx={{
-                  fontSize: '3.5rem', color: '#FFFFFF',
+                  fontSize: {md:'3.5rem',xs:'2.0rem'}
+                  , color: '#FFFFFF',
                   justifyContent: 'center', fontWeight: 'medium', textAlign: 'start', width: 'auto'
                 }}
               >{item.lineThree}</Typography>
