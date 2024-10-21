@@ -9,11 +9,11 @@ import ProjectPage from './components/project.jsx';
 import ContactPage from './components/ContactPage.jsx';
 
 function App() {
-
   return (
     <>
       <div style={{ display: 'flex', flexDirection: 'column', overflow: 'hidden', height: 'auto' }}>
         <NavBar />
+        <div ref={ref}/>
         <LandingPage />
         <AboutPage />
         <ProjectPage/>
