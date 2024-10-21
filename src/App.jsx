@@ -13,7 +13,6 @@ function App() {
     <>
       <div style={{ display: 'flex', flexDirection: 'column', overflow: 'hidden', height: 'auto' }}>
         <NavBar />
-        <div ref={ref}/>
         <LandingPage />
         <AboutPage />
         <ProjectPage/>
