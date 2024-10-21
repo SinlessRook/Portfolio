@@ -19,7 +19,12 @@ const ContactPage = () => {
                 alignItems: 'center'
             }}
             >
-                <Box sx={{ display: 'grid', justifyContent: 'center', alignItems: 'center', gap: 2,position:'relative'}}>
+                <Box sx={{ display: 'grid',
+                     justifyContent: 'center', 
+                     alignItems: 'center', 
+                     gap: 2,position:'relative',
+                     scale: {md:1,xs:0.7},
+                     }}>
                     <Box sx={{ display: 'flex', justifyContent: 'center', gap: { md: 4, xs: 1 }, alignItems: 'center',position:'relative',zIndex:1,top:'80px' }}>
                         <Card 
                         onClick={()=>window.open('https://www.google.com/maps/place/Kochi+City,+Kerala/@10.7777,76.7777,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x2d3a0f9c3d2d3a0f!8m2!3d10.7777!4d76.7777')}
