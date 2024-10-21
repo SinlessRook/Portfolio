@@ -54,7 +54,10 @@ const DrawerHeader = styled('div')(({ theme }) => ({
     justifyContent: 'flex-start',
 }));
 
-export default function NavBar() {
+export default function NavBar(props) {
+    const onNavigate =props.onNavigate;
+    const currentPage = props.currentPage;
+
     const theme = useTheme();
     const [open, setOpen] = React.useState(false);
 
@@ -123,15 +126,30 @@ export default function NavBar() {
                 </DrawerHeader>
                 <Divider />
                 <List>
-                    <ListItem key={'Home'} disablePadding>
+                    <ListItem 
+                    onClick={() => onNavigate(0)}
+                    key={'Home'} disablePadding>
                         <ListItemButton>
-                            <ListItemIcon>
+                            <ListItemIcon
+                            // style={{ 
+                            //     color: currentPage === 0 ? '#3B7778' : 'black' ,
+                            //     scale: currentPage === 0 ? 1.5 : 1 
+                            // }}
+                            >
                                 <HomeIcon />
                             </ListItemIcon>
-                            <ListItemText primary="Home" />
+                            <ListItemText 
+                            // style={{ 
+                            //     color: currentPage === 0 ? '#3B7778' : 'black' ,
+                            //     scale: currentPage === 0 ? 1.5 : 1, 
+                            //     fontWeight: currentPage === 0? '1000': null
+                            // }}
+                            primary="Home" />
                         </ListItemButton>
                     </ListItem>
-                    <ListItem key={'About Me'} disablePadding>
+                    <ListItem 
+                     onClick={() => onNavigate(1)}
+                    key={'About Me'} disablePadding>
                         <ListItemButton>
                             <ListItemIcon>
                                 <InfoIcon />
@@ -139,7 +157,9 @@ export default function NavBar() {
                             <ListItemText primary="About Me" />
                         </ListItemButton>
                     </ListItem>
-                    <ListItem key={'Projects'} disablePadding>
+                    <ListItem
+                     onClick={() => onNavigate(2)}
+                    key={'Projects'} disablePadding>
                         <ListItemButton>
                             <ListItemIcon>
                                 <AccountTreeIcon />
@@ -147,7 +167,9 @@ export default function NavBar() {
                             <ListItemText primary="Projects" />
                         </ListItemButton>
                     </ListItem>
-                    <ListItem key={'Contact Me'} disablePadding>
+                    <ListItem
+                     onClick={() => onNavigate(3)}
+                    key={'Contact Me'} disablePadding>
                         <ListItemButton>
                             <ListItemIcon>
                                 <MailIcon />
