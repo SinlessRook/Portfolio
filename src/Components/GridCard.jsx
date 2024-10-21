@@ -21,13 +21,13 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function CardGrid() {
   const data = ProjectText
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box sx={{ flexGrow: 1}}>
       <Grid container spacing={{ xs: 1, md: 3 }} columns={{ xs: 2, sm: 8, md: 12 }}>
         {data.map((item, index) => (
           <Grid
             key={index} size={{ xs: 2, sm: 4, md: 4 }}>
               <motion.div
-              initial={{ opacity: 0, scale: 0.5, y: '20vh',rotateZ:90,rotateY:90 }}
+              initial={{ opacity: 0, scale: 0.5, y: '20px',rotateZ:90,rotateY:90 }}
               whileInView={{ opacity: 1, scale: 1, y: 0,rotateZ:0,rotateY:0,transition:{type: 'spring', stiffness: 150, delay: 0.3,staggerChildren:1.5,} }}
               whileHover={{ y: -10,transition:{type: 'spring', stiffness: 150,delay:0} }}
               

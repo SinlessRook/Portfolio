@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Footer from './components/Footer.jsx';
 import NavBar from './components/NavBar.jsx';
 import ProjectPage from './components/project.jsx';
+import ContactPage from './components/ContactPage.jsx';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <LandingPage />
         <AboutPage />
         <ProjectPage/>
+        <ContactPage/>
         <Footer />
       </div>
     </>
