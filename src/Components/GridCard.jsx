@@ -27,8 +27,8 @@ export default function CardGrid() {
           <Grid
             key={index} size={{ xs: 2, sm: 4, md: 4 }}>
               <motion.div
-              initial={{ opacity: 0, scale: 0.5, y: '20px',rotateZ:90,rotateY:90 }}
-              whileInView={{ opacity: 1, scale: 1, y: 0,rotateZ:0,rotateY:0,transition:{type: 'spring', stiffness: 150, delay: 0.3,staggerChildren:1.5,} }}
+              initial={{ opacity: 0, scale: 0.5, y: '20px'}}
+              whileInView={{ opacity: 1, scale: 1, y: 0,transition:{type: 'spring', stiffness: 120,staggerChildren:1.5,ease:'easeInOut'} }}
               whileHover={{ y: -10,transition:{type: 'spring', stiffness: 150,delay:0} }}
               
               >

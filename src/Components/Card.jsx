@@ -70,10 +70,10 @@ const HorizontalCarousel = () => {
             >
               <CardMedia sx={{ width: '100%', height: {md:'280px',xs:'200px'}, objectFit: 'cover', margin: 0 }}>
                 <motion.img
-                  initial={{ opacity: 0, scale: 0.5, rotateZ: 90 }}
-                  whileInView={{ opacity: 1, scale: 1, rotateZ: 0 }}
+                  initial={{ opacity: 0, scale: 0,}}
+                  whileInView={{ opacity: 1, scale: 1,transition:{ease:'backInOut',duration:1} }}
                   whileHover={{ boxShadow: '0 0 10px 10px rgba(0, 0, 0, 0.5)', scale: 1.1, transition: { duration: 3.2 } }}
-                  transition={{ duration: 0.5, type: 'spring', stiffness: 150, delay: 0.2 }}
+                  transition={{ duration: 0.5, type: 'spring', stiffness: 150, delay: 0.2,ease:'easeInOut' }}
                   src={item.url} alt={item.text} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </CardMedia>
               <CardContent sx={{ textAlign: 'center' }}>
@@ -89,8 +89,8 @@ const HorizontalCarousel = () => {
                   </motion.div>
                 </Typography>
                 <motion.div
-                  initial={{ opacity: 0, scale: 1.5, rotateZ: 45, y: '10px', }}
-                  whileInView={{ opacity: 1, scale: 1, rotateZ: 0, y: '0px', }}
+                  initial={{ opacity: 0, scale: 1.5, y: '10px', }}
+                  whileInView={{ opacity: 1, scale: 1, y: '0px', }}
                   transition={{ duration: 1.5, type: 'spring', stiffness: 150, delay: 0.8, staggerChildren: 0.5, staggerDirection: -1 }}
                 >
                   <Typography variant="body1" color="white" sx={{ mt: 1 }}>

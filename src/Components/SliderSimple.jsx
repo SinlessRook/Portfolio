@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import { HeroText } from '../assets/constants';
 import { Box, Typography } from "@mui/material";
-import { motion } from 'framer-motion'
+import {  motion } from 'framer-motion'
 
 function PauseOnHover() {
   const data = HeroText;
@@ -13,7 +13,7 @@ function PauseOnHover() {
     PauseOnHover: true,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 3500,
     vertical: true,
     verticalSwiping: true,
     arrows: false,
